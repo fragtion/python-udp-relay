@@ -47,7 +47,7 @@ while True:
 
 	if addr == knownClient:
 		if debug:
-			print("\tforwording tO "+str(knownServer)) 
+			print("\tforwarding to "+str(knownServer)) 
 
 		s.sendto(data, knownServer)
 	else:
