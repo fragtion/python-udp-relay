@@ -1,5 +1,5 @@
 # python-udp-relay
-Super simple script that listens on a local UDP port and relays all packets to a specified remote host:port.
+Super simple proxy/relay script that listens on a local UDP port and relays all packets to a specified remote host:port.
 
 Packets that the host sends back will also be relayed to the local UDP client.
 
